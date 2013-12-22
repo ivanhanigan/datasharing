@@ -5,7 +5,7 @@ title: Exploratory Data Analysis
 ---
 
 - Into a spreadsheet take a list of all files, tables, queries, worksheets (using RODBC sqlTables to extract this list from databases or spreadsheets) 
-- assign a new variable based on the observational types, these will act as an umbrella to collect the [LPU](/least-publishable-units).
+- assign a new variable based on the observational types, these will act as an umbrella to collect the [LPU](/datasharing/least-publishable-units).
 - Then I'd try to carve these umbrella groups into separate LPU ie: Jellybean\_History \_by\_site, Jellybean\_Interval\_Table, Days\_Since\_Jellybean) and Jellybean\_Response.
 - And then start a script in whatever language (like R),
 - Structure the script into sections, the first section would be Jellybean, then first subsection Jellybean\_History, then another subsection Jellybean\_Response.
