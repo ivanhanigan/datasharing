@@ -37,12 +37,12 @@
           </strong>
           <!--<p>datasharing</p>-->
   
-                <p>Bunch of links:</p>
+                <p>Links:</p>
                 <a class="Contact the project" href="mailto:ivan.hanigan@gmail.com">Contact the project →</a>  
                 <!--<p></p>-->
                 <!--<a class="Font of all wisdom" href="www.google.com">Font of all wisdom →</a>-->  
                 <p></p>
-                <a class="Index" href="/datasharing/index.html">About →</a>
+                <a class="Index" href="/datasharing/index.html">Index →</a>
                 <!--<a class="About" href="/aboutus.html">About →</a>-->  
                 <!--<p><a class="Document" href="/datasharing/datasharing.html">Document →</a></p>-->
   
@@ -89,9 +89,9 @@ title: Index
 
 This is a guide for anyone who needs to share data with another analyst and wants to avoid the other person misunderstanding the data.
 
-- [Introduction](/introduction)
-- [Least Publishable Units (LPU)](/least-publishable-units)
-- [Exploratory Data Analysis](/eda)
+- [Introduction](/datasharing/introduction)
+- [Least Publishable Units (LPU)](/datasharing/least-publishable-units)
+- [Exploratory Data Analysis](/datasharing/eda)
 
 #+end_src
 
