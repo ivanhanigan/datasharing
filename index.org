@@ -216,6 +216,14 @@ forensic study of your data to figure out why the raw data looks weird.
 #+end_src
 
 *** The tidy data set
+#+name:the-tidy-data-set-header
+#+begin_src markdown :tangle the-tidy-data-set.md :exports reports :eval no :padline no
+---
+name: the-tidy-data-set
+layout: default
+title: the-tidy-data-set
+---
+
 
 The general principles of tidy data are laid out by [Hadley Wickham](http://had.co.nz/) in [this paper](http://vita.had.co.nz/papers/tidy-data.pdf)
 and [this video](http://vimeo.com/33727555). The paper and the video are both focused on the [R](http://www.r-project.org/) package, which you
@@ -244,9 +252,19 @@ ids and one row for each data type).
 If you are sharing your data with the collaborator in Excel, the tidy data should be in one Excel file per table. They
 should not have multiple worksheets, no macros should be applied to the data, and no columns/cells should be highlighted. 
 Alternatively share the data in a [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) or [TAB-delimited](http://en.wikipedia.org/wiki/Tab-separated_values) text file.
+    
+#+end_src
 
 
 *** The code book
+#+name:the-code-book-header
+#+begin_src markdown :tangle the-code-book.md :exports reports :eval no :padline no
+---
+name: the-code-book
+layout: default
+title: the-code-book
+---
+
 
 For almost any data set, the measurements you calculate will need to be described in more detail than you will sneak
 into the spreadsheet. The code book contains this information. At minimum it should contain:
@@ -265,6 +283,8 @@ like age? Are they randomized to treatments?
 A common format for this document is a Word file. There should be a section called "Study design" that has a thorough
 description of how you collected the data. There is a section called "Code book" that describes each variable and its
 units. 
+    
+#+end_src
 
 *** How to code variables
 
