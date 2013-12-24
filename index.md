@@ -11,7 +11,7 @@ This is a guide for anyone who needs to share data with another analyst and want
 #### [The Data Sharer](/datasharing/the-data-sharer)
 
 - [What you should deliver](/datasharing/what-you-should-deliver)
-- The raw data
+- [The raw data](/datasharing/the-raw-data)
 - The tidy data set
 - The code book
 - How to code variables

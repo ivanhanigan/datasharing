@@ -94,7 +94,7 @@
   #### [The Data Sharer](/datasharing/the-data-sharer)
   
   - [What you should deliver](/datasharing/what-you-should-deliver)
-  - The raw data
+  - [The raw data](/datasharing/the-raw-data)
   - The tidy data set
   - The code book
   - How to code variables
@@ -185,6 +185,15 @@ For maximum speed in the analysis this is the information you should pass to a s
 #+end_src
 
 *** The raw data
+#+name:the-raw-data-header
+#+begin_src markdown :tangle the-raw-data.md :exports reports :eval no :padline no
+---
+name: the-raw-data
+layout: default
+title: the-raw-data
+---
+
+    
 
 It is critical that you include the rawest form of the data that you have access to. Here are some examples of the
 raw form of data:
@@ -204,6 +213,7 @@ You know the raw data is in the right format if you:
 If you did any manipulation of the data at all it is not the raw form of the data. Reporting manipulated data
 as raw data is a very common way to slow down the analysis process, since the analyst will often have to do a
 forensic study of your data to figure out why the raw data looks weird. 
+#+end_src
 
 *** The tidy data set
 
