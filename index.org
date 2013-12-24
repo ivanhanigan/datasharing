@@ -95,11 +95,11 @@
   
   - [What you should deliver](/datasharing/what-you-should-deliver)
   - [The raw data](/datasharing/the-raw-data)
-  - The tidy data set
-  - The code book
-  - How to code variables
-  - The instruction list/script
-  - What you should expect from the analyst
+  - [The tidy data set](/datasharing/the-tidy-data-set)
+  - [The code book](/datasharing/the-code-book)
+  - [How to code variables](/datasharing/how-to-code-variables)
+  - [The instructions script](/datasharing/the-instructions-script)
+  - [What you should expect from the analyst](what-to-expect-from-the-analyst)
   
   #### [The Data Sharee](/datasharing/the-data-sharee)
   
@@ -162,7 +162,7 @@ related.
 #+end_src
 
 * Data Sharer
-** What you should deliver
+*** What you should deliver
 #+name:what-you-should-deliver-header
 #+begin_src markdown :tangle what-you-should-deliver.md :exports reports :eval no :padline no
 ---
@@ -287,6 +287,14 @@ units.
 #+end_src
 
 *** How to code variables
+#+name:how-to-code-variables-header
+#+begin_src markdown :tangle how-to-code-variables.md :exports reports :eval no :padline no
+---
+name: how-to-code-variables
+layout: default
+title: how-to-code-variables
+---
+
 
 When you put variables into a spreadsheet there are several main categories you will run into depending on their [data type](http://en.wikipedia.org/wiki/Statistical_data_type):
 
@@ -313,8 +321,19 @@ data, it should be "male" or "female". The ordinal values in the data set should
 This will avoid potential mixups about which direction effects go and will help identify coding errors. 
 
 Always encode every piece of information about your observations using text. For example, if you are storing data in Excel and use a form of colored text or cell background formatting to indicate information about an observation ("red variable entries were observed in experiment 1.") then this information will not be exported (and will be lost!) when the data is exported as raw text.  Every piece of data should be encoded as actual text that can be exported.  
+    
+#+end_src
 
 *** The instruction list/script
+#+name:the-instructions-script-header
+#+begin_src markdown :tangle the-instructions-script.md :exports reports :eval no :padline no
+---
+name: the-instructions-script
+layout: default
+title: the-instructions-script
+---
+
+    
 
 You may have heard this before, but [reproducibility is kind of a big deal in computational science](http://www.sciencemag.org/content/334/6060/1226).
 That means, when you submit your paper, the reviewers and the rest of the world should be able to exactly replicate
@@ -339,9 +358,19 @@ to confirm that they can obtain the same output file you did.
 
 
 
+#+end_src
 
 ** What you should expect from the analyst
-====================
+
+#+name:what-to-expect-from-the-analyst-header
+#+begin_src markdown :tangle what-to-expect-from-the-analyst.md :exports reports :eval no :padline no
+---
+name: what-to-expect-from-the-analyst
+layout: default
+title: what-to-expect-from-the-analyst
+---
+
+    
 
 When you turn over a properly tidied data set it dramatically decreases the workload on the statistician. So hopefully
 they will get back to you much sooner. But most careful statisticians will check your recipe, ask questions about
@@ -359,6 +388,8 @@ of the steps in the analysis should be clearly explained and you should ask ques
 what the analyst did. It is the responsibility of both the statistician and the scientist to understand the statistical
 analysis. You may not be able to perform the exact analyses without the statistician's code, but you should be able
 to explain why the statistician performed each step to a labmate/your principal investigator. 
+
+#+end_src
 
 * Data Sharee
 ** Exploratory Data Analysis
@@ -384,10 +415,17 @@ title: Exploratory Data Analysis
 
 
 * Acknowledgements
-====================
+#+name:acknowledgements-header
+#+begin_src markdown :tangle acknowledgements.md :exports reports :eval no :padline no
+---
+name: acknowledgements
+layout: default
+title: acknowledgements
+---
 
 - [Jeff Leek](http://biostat.jhsph.edu/~jleek/) - Wrote the initial version.
 - [L. Collado-Torres](http://bit.ly/LColladoTorres) - Fixed typos, added links.
 - [Nick Reich](http://people.umass.edu/nick/) - Added tips on storing data as text.
 
 
+#+end_src
