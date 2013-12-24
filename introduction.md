@@ -15,7 +15,7 @@ The target audiences in mind are:
 The goals of this guide are to provide some instruction on the best way to share data to avoid the most common pitfalls
 and sources of delay in the transition from data collection to data analysis. 
 
-The original author of this material is [Jeff Leek](http://biostat.jhsph.edu/~jleek/) who says:  
+The original author of this material is [Jeff Leek](https://github.com/jtleek/datasharing) who says:  
 _My_ group works with a large
 number of collaborators and the number one source of variation in the speed to results is the status of the data
 when they arrive at the Leek group. Based on my conversations with other statisticians this is true nearly universally.
