@@ -90,7 +90,9 @@
   This is a guide for anyone who needs to share data with another analyst and wants to avoid the other person misunderstanding the data.
   
   #### [Introduction](/datasharing/introduction)
-  #### [Least Publishable Units (LPU)](/datasharing/least-publishable-units)  
+
+  - [Least Publishable Units (LPU)](/datasharing/least-publishable-units)  
+
   #### [The Data Sharer](/datasharing/the-data-sharer)
   
   - [What you should deliver](/datasharing/what-you-should-deliver)
@@ -104,7 +106,8 @@
   #### [The Data Sharee](/datasharing/the-data-sharee)
   
   - [Exploratory Data Analysis](/datasharing/eda)
-  
+  - [Re-structuring the data to fit a schema](restructuring-the-data)  
+
   #### [Acknowledgements](/datasharing/acknowledgements)
   
   
@@ -401,6 +404,27 @@ layout: default
 title: Exploratory Data Analysis
 ---
 
+- graphs and tables
+- cross tabulations, balanced?
+- maps
+- duplicates
+- trend, seasonality, variance
+- sanity checks, plausible values, unlikely combinations
+
+#+end_src
+** Re-structuring the data to fit a schema
+
+#+name:restructuring-the-data-header
+#+begin_src markdown :tangle restructuring-the-data.md :exports reports :eval no :padline no
+---
+name: restructuring-the-data
+layout: default
+title: restructuring-the-data
+---
+
+    
+- Keep in mind ways to standardise, harmonise the data with other data.
+- for example convert all variable names to lowercase, and enforce underscores rather than dots in names
 - Into a spreadsheet take a list of all files, tables, queries, worksheets (using RODBC sqlTables to extract this list from databases or spreadsheets) 
 - assign a new variable based on the observational types, these will act as an umbrella to collect the [LPU](/datasharing/least-publishable-units).
 - Then I'd try to carve these umbrella groups into separate LPU ie: Jellybean\_History \_by\_site, Jellybean\_Interval\_Table, Days\_Since\_Jellybean) and Jellybean\_Response.
