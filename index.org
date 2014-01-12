@@ -93,18 +93,19 @@
 
   - [Least Publishable Units (LPU)](/datasharing/least-publishable-units)  
 
-  #### [The Data Sharer](/datasharing/the-data-sharer)
+  #### [The Data provider](/datasharing/the-data-provider)
   
   - [What you should deliver](/datasharing/what-you-should-deliver)
   - [The raw data](/datasharing/the-raw-data)
   - [The tidy data set](/datasharing/the-tidy-data-set)
   - [The code book](/datasharing/the-code-book)
   - [How to code variables](/datasharing/how-to-code-variables)
+  - [Variable Names](/datasharing/variable-names)
   - [The instructions script](/datasharing/the-instructions-script)
   - [What you should expect from the analyst](what-to-expect-from-the-analyst)
   
-  #### [The Data Sharee](/datasharing/the-data-sharee)
-  
+  #### [The Data Receiver](/datasharing/the-data-receiver)
+  - [Respond quickly, engage deeply](index)
   - [Exploratory Data Analysis](/datasharing/eda)
   - [Re-structuring the data to fit a schema](restructuring-the-data)  
 
@@ -164,7 +165,7 @@ related.
 
 #+end_src
 
-* Data Sharer
+* Data Provider
 *** What you should deliver
 #+name:what-you-should-deliver-header
 #+begin_src markdown :tangle what-you-should-deliver.md :exports reports :eval no :padline no
@@ -219,6 +220,7 @@ forensic study of your data to figure out why the raw data looks weird.
 #+end_src
 
 *** The tidy data set
+**** The tidy dataset in general
 #+name:the-tidy-data-set-header
 #+begin_src markdown :tangle the-tidy-data-set.md :exports reports :eval no :padline no
 ---
@@ -258,7 +260,13 @@ Alternatively share the data in a [CSV](http://en.wikipedia.org/wiki/Comma-separ
     
 #+end_src
 
-
+**** Missing values
+**** Punctuation
+ie Horsfield's Bush Lark Vs Horsfields Bush Lark
+**** Typographical Error
+Rainforest Species Vs Rainforest species
+**** Synonyms
+Blue Blistering Barnacles Vs Blue Bistering Barnacles
 *** The code book
 #+name:the-code-book-header
 #+begin_src markdown :tangle the-code-book.md :exports reports :eval no :padline no
@@ -290,6 +298,7 @@ units.
 #+end_src
 
 *** How to code variables
+**** How to code variables in general
 #+name:how-to-code-variables-header
 #+begin_src markdown :tangle how-to-code-variables.md :exports reports :eval no :padline no
 ---
@@ -336,7 +345,34 @@ This will avoid potential mixups about which direction effects go and will help 
 Always encode every piece of information about your observations using text. For example, if you are storing data in Excel and use a form of colored text or cell background formatting to indicate information about an observation ("red variable entries were observed in experiment 1.") then this information will not be exported (and will be lost!) when the data is exported as raw text.  Every piece of data should be encoded as actual text that can be exported.  
     
 #+end_src
+     
+**** Variable Names
+#+name:variable-names
+#+begin_src markdown :tangle variable-names.md :exports reports :eval no :padline no
+  ---
+  name: variable-names
+  layout: default
+  title: variable-names
+  ---
+  
+  This comes from [Josh Reich's blog](http://blog.i2pi.com/post/52812976752/joshs-postgresql-database-conventions):
+  
+  1. Programming does support AnYSortOF casing that you’d like, it makes cross-project work painful. 
+  1. All names (table, column, sequence, index, constraint, role, etc.) should be lowercase with underscores.  
+  1. Table names should be a singular noun that describes one row. “account”, not “accounts”. Some people prefer plural, we just need a standard, my vote is for singular as it makes SQL a little more natural to read e.g.,
+  
+  #### SQL code:
+      SELECT * FROM account WHERE account.balance > 5000;
+      
 
+  <p></p>
+  ### Let's try this in Ecology: e.g.
+
+      SELECT * FROM tree WHERE tree.species = 'Corymbia maculata';
+      
+  1. Can't name a table 'Species' then.
+  1. Also Hadley Wickham commented that all names should be lowercase in his [Video about Tidy  Data](http://vimeo.com/33727555).
+#+end_src
 *** The instruction list/script
 #+name:the-instructions-script-header
 #+begin_src markdown :tangle the-instructions-script.md :exports reports :eval no :padline no
@@ -404,7 +440,8 @@ to explain why the statistician performed each step to a labmate/your principal 
 
 #+end_src
 
-* Data Sharee
+* Data Receiver
+** Respond quickly, engage deepy
 ** Exploratory Data Analysis
 #+name:eda
 #+begin_src markdown :tangle eda.md :exports reports :eval no :padline no
