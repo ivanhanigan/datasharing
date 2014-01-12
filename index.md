@@ -16,8 +16,8 @@ This is a guide for anyone who needs to share data with another analyst and want
 - [The raw data](/datasharing/the-raw-data)
 - [The tidy data set](/datasharing/the-tidy-data-set)
 - [The code book](/datasharing/the-code-book)
-- [How to code variables](/datasharing/how-to-code-variables)
-- [Variable Names](/datasharing/variable-names)
+    - [How to code variables](/datasharing/how-to-code-variables)
+    - [Variable Names](/datasharing/variable-names)
 - [The instructions script](/datasharing/the-instructions-script)
 - [What you should expect from the analyst](what-to-expect-from-the-analyst)
 
