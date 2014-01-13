@@ -42,9 +42,11 @@
                 <!--<p></p>-->
                 <!--<a class="Font of all wisdom" href="www.google.com">Font of all wisdom →</a>-->  
                 <p></p>
-                <a class="Index" href="/datasharing/index.html">Index →</a>
-                <!--<a class="About" href="/aboutus.html">About →</a>-->  
-                <!--<p><a class="Document" href="/datasharing/datasharing.html">Document →</a></p>-->
+                <p><a class="Index" href="/datasharing/index.html">Index →</a></p>
+                <p><a class="Recommend additions" href="/datasharing/recommendations.html">Recommend additions →</a></p>  
+                <p><a class="Reformatted website as single document" href="/datasharing/datasharing.html">Reformatted website as single document →</a></p>
+                <p><a class="View on Github" href="https://github.com/ivanhanigan/datasharing/">View on Github  →</a></p>
+
   
   
   
@@ -64,7 +66,7 @@
         <footer>
           <p>This project is maintained by <a href="https://github.com/ivanhanigan">ivanhanigan</a></p>
           <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-
+  
   
         </footer>
       </div>
@@ -499,4 +501,20 @@ title: acknowledgements
 - [Nick Reich](http://people.umass.edu/nick/) - Added tips on storing data as text.
 
 
+#+end_src
+* COMMENT Recommendations
+** recommendations
+#+name:recommendations-header
+#+begin_src markdown :tangle recommendations.md :exports none :eval no :padline no
+---
+name: recommendations
+layout: default
+title: Recommendations for additions
+---
+
+- Please add any thoughts for new sections in the comments here
+- I'll endeavour to monitor these regularly (but no promises)
+- If you are super keen to add stuff just head over to [Github and fork the repo](https://github.com/ivanhanigan/datasharing/)
+
+    
 #+end_src
