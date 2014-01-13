@@ -522,8 +522,8 @@ title: restructuring-the-data
 
 #+end_src
 
-* Responsibility
-** 2014-01-14-responsibility
+* Responsibility and Ethics
+** Responsibility
 #+name:responsibility-header
 #+begin_src markdown :tangle responsibility.md :exports none :eval no :padline no
 ---
