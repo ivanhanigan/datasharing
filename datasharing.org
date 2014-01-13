@@ -8,7 +8,7 @@
 
 * COMMENT TODO-list
 ** TODO check back on jtleeks orignal plus comments and issues to make sure I capture any new stuff from them
-** TODO make clear the bits about data sharers vs data sharees
+** DONE make clear the bits about data sharers vs data sharees
 ** TODO how to include a section on ethics?
 * COMMENT layout
 ** default
@@ -100,6 +100,8 @@
   - [What you should deliver](/datasharing/what-you-should-deliver)
   - [The raw data](/datasharing/the-raw-data)
   - [The tidy data set](/datasharing/the-tidy-data-set)
+      - [Missing data](/datasharing/missing-data)
+      - [Standards and Conventions](/datasharing/standards-and-conventions)
   - [The code book](/datasharing/the-code-book)
       - [How to code variables](/datasharing/how-to-code-variables)
       - [Variable Names](/datasharing/variable-names)
@@ -110,6 +112,10 @@
   - [Respond quickly, engage deeply](index)
   - [Exploratory Data Analysis](/datasharing/eda)
   - [Re-structuring the data to fit a schema](restructuring-the-data)  
+
+  #### [Responsibility and Ethics](/datasharing/responsibility)
+  - [Responsibility](/datasharing/responsibility)
+
 
   #### [Acknowledgements](/datasharing/acknowledgements)
   
@@ -262,7 +268,38 @@ Alternatively share the data in a [CSV](http://en.wikipedia.org/wiki/Comma-separ
     
 #+end_src
 
-**** Missing values
+**** Missing data
+#+name:missing-data-header
+#+begin_src markdown :tangle missing-data.md :exports none :eval no :padline no
+---
+name: missing-data
+layout: default
+title: Missing data
+---
+
+#### TODO
+- Using NA, NULL, NaN appropriately
+- Arguments for -9999 etc
+- What is the attitude to blank fields (columns) in data?
+- There a possibility that Data Providers will want to perturb data, e.g.
+longitude and latitude so that the location of a site cannot be
+identified explicitly?
+    
+#+end_src
+**** Standards and Conventions
+#+name:standards-and-conventions-header
+#+begin_src markdown :tangle standards-and-conventions.md :exports none :eval no :padline no
+---
+name: standards-and-conventions
+layout: default
+title: standards-and-conventions
+---
+
+#### TODO
+- Is there an expectation that Data Providers will use SI units?    
+
+#+end_src
+
 **** Punctuation
 ie Horsfield's Bush Lark Vs Horsfields Bush Lark
 **** Typographical Error
@@ -441,7 +478,6 @@ analysis. You may not be able to perform the exact analyses without the statisti
 to explain why the statistician performed each step to a labmate/your principal investigator. 
 
 #+end_src
-
 * Data Receiver
 ** Respond quickly, engage deepy
 ** Exploratory Data Analysis
@@ -484,6 +520,23 @@ title: restructuring-the-data
 - Then shuffle these around like moving blocks of a jigsaw puzzle until happy enough to share with someone else.
 - Do a presentation of the work so far and make notes immediately afterward about things you thought of during the presentation
 
+#+end_src
+
+* Responsibility
+** 2014-01-14-responsibility
+#+name:responsibility-header
+#+begin_src markdown :tangle responsibility.md :exports none :eval no :padline no
+---
+name: responsibility
+layout: default
+title: Responsibility
+---
+
+- Who is responsible for what needs to be made  explicit. 
+- In essence the Data Provider (or the projects Principle Investigator) is ultimately responsible for their data.
+- The Data Receiver should not make any changes without explicit permission from the owner of the data.
+- This should be said upfront at the beginning of collaboration, and then we
+can go on to talk about the sort of checks and modifications the receiver might run, etc.    
 #+end_src
 
 

@@ -15,6 +15,8 @@ This is a guide for anyone who needs to share data with another analyst and want
 - [What you should deliver](/datasharing/what-you-should-deliver)
 - [The raw data](/datasharing/the-raw-data)
 - [The tidy data set](/datasharing/the-tidy-data-set)
+    - [Missing data](/datasharing/missing-data)
+    - [Standards and Conventions](/datasharing/standards-and-conventions)
 - [The code book](/datasharing/the-code-book)
     - [How to code variables](/datasharing/how-to-code-variables)
     - [Variable Names](/datasharing/variable-names)
@@ -25,5 +27,9 @@ This is a guide for anyone who needs to share data with another analyst and want
 - [Respond quickly, engage deeply](index)
 - [Exploratory Data Analysis](/datasharing/eda)
 - [Re-structuring the data to fit a schema](restructuring-the-data)  
+
+#### [Responsibility and Ethics](/datasharing/responsibility)
+- [Responsibility](/datasharing/responsibility)
+
 
 #### [Acknowledgements](/datasharing/acknowledgements)
