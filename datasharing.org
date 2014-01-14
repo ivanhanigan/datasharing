@@ -270,7 +270,7 @@ Alternatively share the data in a [CSV](http://en.wikipedia.org/wiki/Comma-separ
 
 **** Missing data
 #+name:missing-data-header
-#+begin_src markdown :tangle missing-data.md :exports none :eval no :padline no
+#+begin_src markdown :tangle missing-data.md :exports reports :eval no :padline no
 ---
 name: missing-data
 layout: default
@@ -288,7 +288,7 @@ identified explicitly?
 #+end_src
 **** Standards and Conventions
 #+name:standards-and-conventions-header
-#+begin_src markdown :tangle standards-and-conventions.md :exports none :eval no :padline no
+#+begin_src markdown :tangle standards-and-conventions.md :exports reports :eval no :padline no
 ---
 name: standards-and-conventions
 layout: default
