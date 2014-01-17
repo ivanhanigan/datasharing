@@ -156,6 +156,28 @@ before calling on a statistician. This can dramatically speed the turnaround tim
 have to work through all the pre-processing steps first. 
 
 #+end_src
+
+* Ethics
+** Responsibility
+#+name:responsibility-header
+#+begin_src markdown :tangle responsibility.md :exports none :eval no :padline no
+---
+name: responsibility
+layout: default
+title: Responsibility
+---
+
+- Who is responsible for what needs to be made  explicit. 
+- In essence the Data Provider (or the projects Principle Investigator) is ultimately responsible for their data.
+- The Data Receiver should not make any changes without explicit permission from the owner of the data.
+- This should be said upfront at the beginning of collaboration, and then we
+can go on to talk about the sort of checks and modifications the receiver might run, etc.    
+#+end_src
+
+** Data sharing code of conduct
+*** Identifying Errors (miscalculations or methodological)
+*** Uncovering Fraud
+*** Strike gold? Share the wealth!
 * Least Publishable Units (LPU)
 
 #+name:least-publishable-units
@@ -521,25 +543,6 @@ title: restructuring-the-data
 - Do a presentation of the work so far and make notes immediately afterward about things you thought of during the presentation
 
 #+end_src
-
-* Responsibility and Ethics
-** Responsibility
-#+name:responsibility-header
-#+begin_src markdown :tangle responsibility.md :exports none :eval no :padline no
----
-name: responsibility
-layout: default
-title: Responsibility
----
-
-- Who is responsible for what needs to be made  explicit. 
-- In essence the Data Provider (or the projects Principle Investigator) is ultimately responsible for their data.
-- The Data Receiver should not make any changes without explicit permission from the owner of the data.
-- This should be said upfront at the beginning of collaboration, and then we
-can go on to talk about the sort of checks and modifications the receiver might run, etc.    
-#+end_src
-
-
 * Acknowledgements
 #+name:acknowledgements-header
 #+begin_src markdown :tangle acknowledgements.md :exports reports :eval no :padline no
