@@ -8,7 +8,9 @@ This is a guide for anyone who needs to share data with another analyst and want
 
 #### [Introduction](/datasharing/introduction)
 
-- [Least Publishable Units (LPU)](/datasharing/least-publishable-units)  
+#### [Ethics](/datasharing/responsibility)
+ 
+### [Least Publishable Units (LPU)](/datasharing/least-publishable-units)  
 
 #### [The Data provider](/datasharing/the-data-provider)
 
@@ -21,15 +23,12 @@ This is a guide for anyone who needs to share data with another analyst and want
     - [How to code variables](/datasharing/how-to-code-variables)
     - [Variable Names](/datasharing/variable-names)
 - [The instructions script](/datasharing/the-instructions-script)
-- [What you should expect from the analyst](what-to-expect-from-the-analyst)
+- [What you should expect from the Receiver](what-to-expect-from-the-analyst)
 
 #### [The Data Receiver](/datasharing/the-data-receiver)
+- [Data sharing code of conduct](/datasharing/responsibility)
 - [Respond quickly, engage deeply](index)
 - [Exploratory Data Analysis](/datasharing/eda)
 - [Re-structuring the data to fit a schema](restructuring-the-data)  
-
-#### [Responsibility and Ethics](/datasharing/responsibility)
-- [Responsibility](/datasharing/responsibility)
-
 
 #### [Acknowledgements](/datasharing/acknowledgements)

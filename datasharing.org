@@ -88,20 +88,14 @@
   layout: default
   title: Index
   ---
-  
+
   This is a guide for anyone who needs to share data with another analyst and wants to avoid the other person misunderstanding the data.
   
   #### [Introduction](/datasharing/introduction)
   
   #### [Ethics](/datasharing/responsibility)
-  - [Responsibility](/datasharing/responsibility)
-  - [Data sharing code of conduct](/datasharing/responsibility)
-      - Identifying Errors (miscalculations or methodological)
-      - Uncovering Fraud
-      - Strike gold? Share the wealth!
-  
-  ### Aim
-  - [Least Publishable Units (LPU)](/datasharing/least-publishable-units)  
+ 
+  ### [Least Publishable Units (LPU)](/datasharing/least-publishable-units)  
   
   #### [The Data provider](/datasharing/the-data-provider)
   
@@ -114,9 +108,10 @@
       - [How to code variables](/datasharing/how-to-code-variables)
       - [Variable Names](/datasharing/variable-names)
   - [The instructions script](/datasharing/the-instructions-script)
-  - [What you should expect from the analyst](what-to-expect-from-the-analyst)
+  - [What you should expect from the Receiver](what-to-expect-from-the-analyst)
   
   #### [The Data Receiver](/datasharing/the-data-receiver)
+  - [Data sharing code of conduct](/datasharing/responsibility)
   - [Respond quickly, engage deeply](index)
   - [Exploratory Data Analysis](/datasharing/eda)
   - [Re-structuring the data to fit a schema](restructuring-the-data)  
@@ -505,6 +500,10 @@ to explain why the statistician performed each step to a labmate/your principal 
 
 #+end_src
 * Data Receiver
+** Data sharing code of conduct
+      - Identifying Errors (miscalculations or methodological)
+      - Uncovering Fraud
+      - Strike gold? Share the wealth!
 ** Respond quickly, engage deepy
 ** Exploratory Data Analysis
 #+name:eda
