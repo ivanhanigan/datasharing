@@ -4,7 +4,7 @@ layout: default
 title: Index
 ---
 
-This is a collection of evidence based recommendations for anyone who needs to share data with another analyst and wants to avoid the other person misunderstanding the data.
+This is a collection of opinions based on more than 15 years experience, and evidence based recommendations (from literature) for sharing data.  This is for data analysts who want to share data with another analyst and wants to avoid the other person misunderstanding the data.
 
 #### [Introduction](/datasharing/introduction)
 
