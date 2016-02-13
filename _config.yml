@@ -3,5 +3,4 @@ description: An exploration of datasharing
 url: http://ivanhanigan.github.com
 paginate: 5
 pygments: true
-markdown: rdiscount
 permalink: /:year/:month/:title/
